@@ -10,6 +10,18 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="logo"> <img src="images/logo.webp" alt=""></div>
+            <ul class="paginas">
+                <li><a href="">Home</a></li>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container" id="container">
         <div class="container">
             <?php if (!empty($_GET['msgErro'])) { ?>
@@ -52,7 +64,7 @@
                 <span>ou use seu email para se registrar</span>
                 <input type="email" placeholder="email" required>
                 <input type="password" placeholder="senha" required>
-                <a href="#">Esqueceu sua senha</a>
+                <a href="">Esqueceu sua senha</a>
                 <button>Login</button>
             </form>
         </div>
@@ -72,8 +84,8 @@
         </div>
     </div>
 
-     <!-- Rodapé do site -->
-     <footer>
+    <!-- Rodapé do site -->
+    <footer>
         <div id="footer_content">
             <div id="footer_contacts">
                 <h2>Fatia Fina</h2>

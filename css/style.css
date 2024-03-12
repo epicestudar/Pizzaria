@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@1,600&display=swap');
 
 * {
     margin: 0;
@@ -17,6 +18,45 @@ body{
     min-height: 110vh;
 }
 
+header{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 120px;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+header img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    margin: auto;
+}
+.paginas {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.paginas li{
+    margin: 35px;
+    padding: 10px;
+    list-style: none;
+}
+.paginas li a{
+    text-decoration: none;
+    color: white;
+}
 .container{
     margin-top: 15%;
     background: #fff;
