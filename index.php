@@ -36,7 +36,7 @@
             <?php } ?>
         </div>
         <div class="form-container sign-up">
-            <form action="processa_usuario.php" method="post">
+        <form action="processa_usuario.php" method="post">
                 <h1>Crie sua Conta</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -52,8 +52,8 @@
                 <button name="enviarDados">Cadastrar</button>
             </form>
         </div>
-        <div class="form-container sign in">
-            <form>
+        <div class="form-container sign-in">
+        <form action="processa_login.php" method="post">
                 <h1>Faça seu Login</h1>
                 <div class="social-icons">
                     <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
@@ -62,15 +62,15 @@
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
                 <span>ou use seu email para se registrar</span>
-                <input type="email" placeholder="email" required>
-                <input type="password" placeholder="senha" required>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="password" name="senha" placeholder="senha" required>
                 <a href="">Esqueceu sua senha</a>
                 <button>Login</button>
             </form>
         </div>
         <div class="toggle-container">
             <div class="toggle">
-                <div class="toggle-panel toggle-left">
+            <div class="toggle-panel toggle-left">
                     <h1>Bem-vindo(a) de volta!</h1>
                     <p>Entre com suas informações de usuário para usar todas as ferramentas do nosso site</p>
                     <button class="hidden" id="login">Entrar</button>
@@ -83,6 +83,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- Rodapé do site -->
     <footer>
@@ -161,7 +162,8 @@
             2024 all rights reserved
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
 
 </html>
