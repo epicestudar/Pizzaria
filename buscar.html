@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Pedidos</title>
+    <link rel="stylesheet" href="css/pesquisa.css">
+</head>
+<body>
+    <div class="container">
+        <form id="searchFormPizza" class="search-form">
+            <input type="text" id="pizza" name="pizza" placeholder="Sabor da Pizza">
+            <button type="submit">Pesquisar Pizza</button>
+        </form>
+        
+        <div id="resultPizza" class="result"></div>
+    </div>
+    <div class="container">
+        <form id="searchFormCliente" class="search-form">
+            <input type="text" id="cliente" name="cliente" placeholder="Nome do Cliente">
+            <button type="submit">Pesquisar Cliente</button>
+        </form>
+        
+        <div id="resultCliente" class="result"></div>
+    </div>
+    <div class="container">
+        <form id="searchFormFuncionario" class="search-form">
+            <input type="text" id="funcionario" name="funcionario" placeholder="Nome do Funcionario">
+            <button type="submit">Pesquisar Funcionario</button>
+        </form>
+        
+        <div id="resultFuncionario" class="result"></div>
+    </div>
+    <div class="container">
+        <form id="searchFormArea" class="search-form">
+            <input type="text" id="area" name="area" placeholder="ID da area">
+            <button type="submit">Pesquisar Area</button>
+        </form>
+        
+        <div id="resultArea" class="result"></div>
+    </div>
+    <div class="container">
+        <form id="searchFormFornecedor" class="search-form">
+            <input type="text" id="fornecedor" name="fornecedor" placeholder="ID do fornecedor">
+            <button type="submit">Pesquisar Fornecedor</button>
+        </form>
+        
+        <div id="resultFornecedor" class="result"></div>
+    </div>
+</body>
+<script defer src="js/buscar.js"></script>
+</html>
